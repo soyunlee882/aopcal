@@ -7,12 +7,15 @@
 
 	<aop:aspectj-autoproxy />
 	
-	<bean id="exeTimeAspect" class="kr.hs.emirim.soyunlee882.aopcal.aspect.ExeTimeAspect2" />
+	<bean id="exeTimeAspect"
+	 class="kr.hs.emirim.soyunlee882.aopcal.aspect.ExeTimeAspect2" />
 
-	<bean id="impeCal" class="kr.hs.emirim.soyunlee882.aopcal.cal.ImpeCalculator">
+	<bean id="impeCal" 
+	class="kr.hs.emirim.soyunlee882.aopcal.cal.ImpeCalculator">
 	</bean>
 
-	<bean id="recCal" class="kr.hs.emirim.soyunlee882.aopcal.cal.RecCalculator">
+	<bean id="recCal" 
+	class="kr.hs.emirim.soyunlee882.aopcal.cal.RecCalculator">
 	</bean>
 
 </beans>
